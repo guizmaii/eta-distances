@@ -58,6 +58,7 @@ executable eta-distances
   
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.8 && <4.9
+                     , containers
   
   -- Directories containing source files.
   hs-source-dirs:      src
