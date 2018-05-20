@@ -43,10 +43,12 @@ extra-source-files:  ChangeLog.md, README.md
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
+executable eta-distances
+--library
+  main-is:              Main.hs
 
-library
   -- Modules exported by the library.
-  -- exposed-modules:     
+  -- exposed-modules:     DistancesAPI
   
   -- Modules included in this library but not exported.
   -- other-modules:       
